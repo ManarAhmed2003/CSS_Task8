@@ -1,0 +1,154 @@
+.green,
+.red,
+.blue,
+.black {
+    width: 100px; 
+    height: 100px;
+    position: absolute;
+    
+}
+.green{
+    background-color:#009688 ;
+    z-index: 2;
+    top: 30px;
+    left: 30px;
+
+}
+.red{
+    background-color:#f44336;
+    z-index: 3;
+    top: 40px;
+    left: 40px;
+}
+.blue{
+    background-color:#03a9f4 ;
+    z-index: 1;
+    left: 20px;
+    top: 20px;
+}
+.black{
+    background-color: black;
+    z-index : -1;
+    top: 30px;
+    left: 20px; 
+}
+hr{
+    margin-top: 150px;
+}
+.ass2 {
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #eee;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid;
+    border-color:#f44336 #03a9f4;
+    position: relative;
+}
+.top-left,
+.bottom-left,
+.top-right,
+.bottom-right {
+position: absolute;
+background-color:#03a9f4 ;
+color: white;
+font-weight: bold;
+padding: 5px 10px;
+}
+.top-left{
+    top: -15px;
+    left: -15px;
+    border-right: 2px #f44336 solid;
+}
+.bottom-left{
+    border-right: 2px #f44336 solid;
+    bottom: -15px;
+    left: -15px;
+} 
+.top-right{
+    border-left:2px #f44336 solid ;
+    top: -15px;
+    right: -15px;
+}
+.bottom-right{
+    border-left: 2px #f44336 solid;
+    bottom: -15px;
+    right: -15px;
+}
+.ass3{
+    margin: 50px auto;
+    width: 400px;
+}
+.html,
+.css,
+.js{
+    background-color: #eee;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    margin-bottom: 20px;
+    list-style: none;
+}
+.html ol,
+.css ol{
+    padding-left: 10px;
+    margin: 10px;
+}
+.html ol li,
+.css ol li{
+    background-color: white;
+    padding: 5px;
+    margin: 10px;
+}
+.css ol li{
+    list-style-type: upper-roman;
+}
+.js ul{
+    padding-left: 0px;
+}
+.js ul li {
+    background-color: white;
+    list-style-position: inside;
+    margin: 10px;
+    padding: 5px;
+}
+table{
+    width: 700;
+    margin: 50px auto;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 5px solid #009688;
+}
+caption{
+    font-weight: bold;
+    margin-bottom: 20px;
+
+}
+table thead td{
+    color: white;
+    font-weight: bold;
+    background-color: #404040;
+    text-align: center;
+    padding: 20px;
+}
+img{
+    width: 70px;
+}
+table tbody td{
+    background-color: #eee;
+    text-align: center;
+    padding: 20px;
+}
+.view{
+    background-color: #03a9f4;
+    color: white;
+    border: none;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+.del{
+    background-color: #e91e63;
+    color: white;
+    border: none;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+    
